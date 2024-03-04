@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.container{
+  background-color: rgb(56, 150, 151);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow:inset;
+}
+.h{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 20px;
+  color: blue;
+  text-align: center;
+}
+.length{
+  margin-bottom: 20px;
+}
+.length label{
+   display: block;
+   padding: 5px;
+   font-weight: bold;
+}
+.length input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.input{
+  margin-bottom: 20px;
+}
+.input label{
+  font-weight:bold;
+
+}
+.input input{
+  margin-right:5px;
+}
+.button{
+  margin-bottom: 20px;
+}
+.button button{
+  padding:10px 20px;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.generate-password{
+  margin-bottom: 20px;
+} 
+.generate-password input{
+  flex: 1;
+  width: 80%;
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+
+}
+.generate-password button{
+  padding: 5px;
+  background-color: green;
+  color: white;
+}
